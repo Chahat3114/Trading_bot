@@ -11,13 +11,13 @@ Supports placing MARKET and LIMIT orders via CLI with input validation, logging,
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Chahat3114/Trading_bot.git
 cd trading_bot
 Install dependencies:
 pip install -r requirements.txt
 Set your Binance Testnet API keys in bot/client.py:
-API_KEY = "YOUR_API_KEY"
-API_SECRET = "YOUR_API_SECRET"
+API_KEY = "your api key"
+API_SECRET = "your api secret"
 
 You can create a Binance Futures Testnet account and generate API credentials at: https://testnet.binancefuture.com/
 
@@ -37,4 +37,4 @@ Assumptions
 The bot only supports USDT-M futures.
 Leverage is set to 10x and margin type to ISOLATED by default.
 User inputs are validated (symbol format, side, order type, quantity, price).
-MARKET orders execute immediately; LIMIT orders execute when the market reaches the specified price.
+MARKET orders execute immediately; LIMIT orders execute when the market reaches the specified price
