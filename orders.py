@@ -47,5 +47,3 @@ def place_order(side, symbol, order_type, quantity, price=None):
         print("Order failed:", e)
 
 
-        #api key: G4nM5oEBFiey7fscTTZh7IOEE2yxAZeFhSWujJaYNoWMlXwaidwMuk6KTyZuMyeY
-        #Secret Key: lfFzPNugIzryX7Ftj2vML1VFGESqAt8Lp5gRYBIDyUzmp39DCca1D9QnHpL3Q1o6
